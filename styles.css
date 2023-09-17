@@ -9,3 +9,21 @@
     display: flex;
     justify-content: space-between;
 }
+
+.main, .logo{
+    color: #F9FAF8;
+}
+
+.main{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-size: 24px;
+}
