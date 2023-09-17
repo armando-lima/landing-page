@@ -71,3 +71,14 @@ a{
 .signature{
     align-self: flex-end;
 }
+
+.action, button{
+    background-color: #3882F6;
+}
+
+.action{
+    display: flex;
+    padding: 16px 16px 24px 16px;
+    justify-content: center;
+    gap: 72px;
+}
