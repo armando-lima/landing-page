@@ -20,7 +20,7 @@
     font-weight: 900;
 }
 
-.secondary{
+.secondary, footer{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -81,4 +81,12 @@ a{
     padding: 16px 16px 24px 16px;
     justify-content: center;
     gap: 72px;
+}
+
+footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 16px;
+    align-self: center;
 }
