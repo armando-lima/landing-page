@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.hero{
+.hero, .navbar{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
