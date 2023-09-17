@@ -11,7 +11,7 @@
     padding: 16px 16px 48px 16px;
 }
 
-.main, .logo{
+.main, .logo, button{
     color: #F9FAF8;
 }
 
@@ -89,4 +89,15 @@ footer{
     justify-content: center;
     padding: 16px;
     align-self: center;
+}
+
+button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-style: groove;
+    border-color:#E5E7EB;
+}
+
+.hero button{
+    border: none;
 }
