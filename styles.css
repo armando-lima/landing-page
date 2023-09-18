@@ -14,18 +14,17 @@ body{
     background-color: #1F2937;
     display: flex;
     padding: 16px 16px 48px 16px;
-}
-
-.hero{
     justify-content: center;
 }
 
-.navbar{
+.navbar-content{
+    display: flex;
     justify-content: space-between;
+    flex-basis: 1024px;
 }
 
 .hero-content{
-    flex-basis: 55%;
+    flex-basis: 1024px;
 }
 
 .main, .logo, button, .action h3{
@@ -49,6 +48,10 @@ body{
 ul{
     display: flex;
     list-style: none;
+}
+
+li{
+    padding: 0 16px;
 }
 
 a{
@@ -86,7 +89,7 @@ a{
 .quote-content {
     display: flex;
     flex-direction: column;
-    flex-basis: 55%;
+    flex-basis: 1024px;
 }
 
 .quote p {
@@ -113,7 +116,7 @@ a{
     display: flex;
     padding: 36px 192px;
     justify-content: space-between;
-    flex-basis: 55%;
+    flex-basis: 1024px;
     border-radius: 12px;
 }
 
