@@ -126,6 +126,12 @@ a{
     justify-content: space-between;
     flex-basis: 1024px;
     border-radius: 12px;
+    gap: 64px;
+}
+
+.action-content button{
+    align-self: center;
+    flex-basis: 128px;
 }
 
 footer{
