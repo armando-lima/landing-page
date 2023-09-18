@@ -17,7 +17,7 @@ body{
     padding: 16px 16px 48px 16px;
 }
 
-.main, .logo, button{
+.main, .logo, button, .action h3{
     color: #F9FAF8;
 }
 
@@ -26,7 +26,7 @@ body{
     font-weight: 900;
 }
 
-.secondary, footer{
+.secondary, footer, .action p{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -88,15 +88,22 @@ a{
     align-self: flex-end;
 }
 
-.action, button{
+.action-content, button{
     background-color: #3882F6;
 }
 
 .action{
     display: flex;
-    padding: 16px 16px 24px 16px;
+    padding: 64px 16px;
     justify-content: center;
-    gap: 72px;
+}
+
+.action-content{
+    display: flex;
+    padding: 36px 192px;
+    justify-content: space-between;
+    flex-basis: 55%;
+    border-radius: 12px;
 }
 
 footer{
