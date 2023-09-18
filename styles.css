@@ -13,8 +13,19 @@ body{
 .hero, .navbar{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
     padding: 16px 16px 48px 16px;
+}
+
+.hero{
+    justify-content: center;
+}
+
+.navbar{
+    justify-content: space-between;
+}
+
+.hero-content{
+    flex-basis: 55%;
 }
 
 .main, .logo, button, .action h3{
