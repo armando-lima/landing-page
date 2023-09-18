@@ -57,10 +57,7 @@ a{
 
 .quote{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex: 1;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
@@ -68,7 +65,19 @@ a{
     padding: 48px 64px;
 }
 
-.signature{
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 55%;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-content .signature{
     align-self: flex-end;
 }
 
