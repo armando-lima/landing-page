@@ -47,7 +47,7 @@ body {
 }
 
 /* Hero section */
-.hero {
+.hero-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@ body {
     padding-bottom: 4em;
 }
 
-.hero-container {
+.hero-text {
     display: flex;
     flex-direction: column;
     align-items: self-start;
