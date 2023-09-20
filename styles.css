@@ -141,30 +141,20 @@ img[alt~="this is a placeholder for an image"] {
 }
 
 /* Quote section */
-
-.quote {
-    display: flex;
-    justify-content: center;
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-    padding: 48px 64px;
-}
-
-.quote-content {
+.quote-container {
     display: flex;
     flex-direction: column;
-    flex-basis: 1024px;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 2em 18em;
+    gap: 0.5em;
 }
 
-.quote p {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+.quote-container em, .quote-container p {
+    font-size: 2em;
 }
 
-.quote-content .signature {
+.quote-container p {
     align-self: flex-end;
 }
 
