@@ -104,7 +104,7 @@ img[alt~="this is a placeholder for an image"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2em 16em;
+    padding: 2em 18em;
 }
 
 .information-header {
