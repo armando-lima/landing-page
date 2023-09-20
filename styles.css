@@ -92,37 +92,55 @@ body {
     align-items: center;
 }
 
-/* Styling all alt attribute that has "placeholder" on it */
-img[alt*="placeholder"] {
+/* Styling only alt attribute that has the entire phrase on it */
+img[alt~="this is a placeholder for an image"] {
     color: white;
 }
 
 /* Main section */
-.content {
+/* Information section */
+.information-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
-
-.information-content {
-    flex-basis: 1024px;
-}
-
-.information-content,
-.subtext {
-    text-align: center;
-    padding: 16px 16px 24px 16px;
-}
-
-.subtext {
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    padding: 2em 16em;
 }
 
 .information-header {
-    font-size: 36px;
+    font-size: 2em;
     font-weight: 900;
     color: #1F2937;
 }
+
+.information-subtext {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    gap: 1em;
+}
+
+.information-image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.information-image {
+    border: 1px solid blue;
+    border-radius: 0.5em;
+    height: 10em;
+    width: 10em;
+    align-self: center;
+    /* Making the img flex and centering it to center alt text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Quote section */
 
 .quote {
     display: flex;
