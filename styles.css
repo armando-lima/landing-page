@@ -158,28 +158,42 @@ img[alt~="this is a placeholder for an image"] {
     align-self: flex-end;
 }
 
+/* Action section */
+.action-container {
+    display: flex;
+    justify-content: center;
+    padding: 4em 16em;
+    flex: 1;
+}
+
 .action-content {
     background-color: #3882F6;
-}
-
-.action {
     display: flex;
-    padding: 64px 16px;
-    justify-content: center;
-}
-
-.action-content {
-    display: flex;
-    padding: 36px 192px;
+    padding: 2em 4em;
     justify-content: space-between;
-    flex-basis: 1024px;
-    border-radius: 12px;
-    gap: 64px;
+    border-radius: 1em;
+    gap: 3em;
+}
+
+.action-content h3{
+    color: #F9FAF8;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.action-content p {
+    color: #E5E7EB;
+    font-size: 1em;
 }
 
 .action-content button {
     align-self: center;
-    flex-basis: 128px;
+    border-radius: 0.5em;
+    padding: 1em 3em;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    font-size: 1em;
 }
 
 footer {
