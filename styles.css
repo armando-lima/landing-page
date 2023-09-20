@@ -163,7 +163,6 @@ img[alt~="this is a placeholder for an image"] {
     display: flex;
     justify-content: center;
     padding: 4em 16em;
-    flex: 1;
 }
 
 .action-content {
@@ -173,6 +172,7 @@ img[alt~="this is a placeholder for an image"] {
     justify-content: space-between;
     border-radius: 1em;
     gap: 3em;
+    flex: 1;
 }
 
 .action-content h3{
