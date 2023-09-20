@@ -1,90 +1,130 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.hero, .navbar{
+/* Header section */
+.first-block {
     background-color: #1F2937;
-    display: flex;
-    padding: 16px 16px 48px 16px;
-    justify-content: center;
+    padding: 1em 16em;
 }
 
-.navbar-content{
+/* Navigation bar section */
+.navbar {
     display: flex;
     justify-content: space-between;
-    flex-basis: 1024px;
+    padding-top: 1em;
+    padding-bottom: 4em;
 }
 
-.hero-content{
-    flex-basis: 1024px;
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    align-self: center;
 }
 
-.main, .logo, button, .action h3{
+.navbar-logo {
+    font-size: 1.5em;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
-.main{
-    font-size: 48px;
+.navbar-links a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #E5E7EB;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding-bottom: 4em;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 1em;
+}
+
+.hero-header {
+    color: #F9FAF8;
+    font-size: 3em;
     font-weight: 900;
 }
 
-.secondary, footer, .action p{
-    font-size: 18px;
+.hero-subtext {
+    font-size: 1em;
     color: #E5E7EB;
 }
 
-.logo{
-    font-size: 24px;
+.hero-button {
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 4em;
+    background-color: #3882F6;
+    color: #E5E7EB;
 }
 
-ul{
+.hero-image {
+    background-color: #808080;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    align-self: stretch;
+    /* Making the img flex and centering it to center alt text */
     display: flex;
-    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 
-li{
-    padding: 0 16px;
+/* Styling all alt attribute that has "placeholder" on it */
+img[alt*="placeholder"] {
+    color: white;
 }
 
-a{
-    text-decoration: none;
-    color: #E5E7EB;
-}
-
-.content{
+/* Main section */
+.content {
     display: flex;
     justify-content: center;
 }
 
-.information-content{
+.information-content {
     flex-basis: 1024px;
 }
 
-.information-content, .subtext{
+.information-content,
+.subtext {
     text-align: center;
     padding: 16px 16px 24px 16px;
 }
 
-.subtext{
+.subtext {
     display: flex;
     justify-content: center;
 }
 
-.information-header{
+.information-header {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
 }
 
-.quote{
+.quote {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
@@ -106,21 +146,21 @@ a{
     color: #1F2937;
 }
 
-.quote-content .signature{
+.quote-content .signature {
     align-self: flex-end;
 }
 
-.action-content, button{
+.action-content {
     background-color: #3882F6;
 }
 
-.action{
+.action {
     display: flex;
     padding: 64px 16px;
     justify-content: center;
 }
 
-.action-content{
+.action-content {
     display: flex;
     padding: 36px 192px;
     justify-content: space-between;
@@ -129,25 +169,20 @@ a{
     gap: 64px;
 }
 
-.action-content button{
+.action-content button {
     align-self: center;
     flex-basis: 128px;
 }
 
-footer{
+footer {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
     padding: 16px;
 }
 
-button{
+button {
     padding: 8px 16px;
     border-radius: 8px;
-    border-style: groove;
-    border-color:#E5E7EB;
-}
-
-.hero button{
-    border: none;
+    border: 2px solid #E5E7EB;
 }
