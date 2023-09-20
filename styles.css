@@ -196,15 +196,13 @@ img[alt~="this is a placeholder for an image"] {
     font-size: 1em;
 }
 
+/* Footer section */
 footer {
     display: flex;
     background-color: #1F2937;
+    color: #E5E7EB;
     justify-content: center;
-    padding: 16px;
-}
-
-button {
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: 2px solid #E5E7EB;
+    align-items: center;
+    padding: 1em;
+    font-size: 1em;
 }
