@@ -146,6 +146,7 @@ img[alt~="this is a placeholder for an image"] {
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
+    color: #1F2937;
     padding: 2em 18em;
     gap: 0.5em;
 }
